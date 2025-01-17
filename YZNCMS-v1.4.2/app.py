@@ -31,4 +31,5 @@ def index():
     return "Request logged!"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # 启动Flask应用，监听所有IP地址的8080端口
+    app.run(port=8080,debug=True)
